@@ -41,3 +41,4 @@ console.log(timeAgo(new Date())); // "just now"
 ## 📜 API
 ```bash
 timeAgo(date: Date): string
+```
