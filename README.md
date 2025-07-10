@@ -49,4 +49,4 @@ Takes a JavaScript ``` Date ```object and returns a human-readable relative time
 npm run build       # Build the library with Rollup
 npm test            # Run tests with Jest
 ```
-##
+## 🤝 Contributing
