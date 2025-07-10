@@ -1,0 +1,32 @@
+{
+  "name": "humantime-js",
+  "version": "1.0.0",
+  "description": "Tiny JavaScript library to turn timestamps into human-friendly text like 'just now', '5 mins ago', 'yesterday'.",
+  "main": "dist/humantime.cjs.js",
+  "module": "dist/humantime.esm.js",
+  "unpkg": "dist/humantime.umd.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "human",
+    "time",
+    "ago",
+    "date",
+    "friendly",
+    "tiny",
+    "javascript"
+  ],
+  "author": "Agyare Kelvin Yeboah",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "jest": "^30.0.4",
+    "rollup": "^3.29.5"
+  }
+}
