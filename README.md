@@ -5,3 +5,4 @@
 [![Bundle Size](https://badgen.net/bundlephobia/min/humantime-js)](https://bundlephobia.com/result?p=humantime-js)
 
 > ⚡ A tiny JavaScript library to turn timestamps into friendly phrases like **"just now"**, **"5 mins ago"**, or **"yesterday"**.
+---
