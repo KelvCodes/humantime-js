@@ -48,5 +48,5 @@ Takes a JavaScript ``` Date ```object and returns a human-readable relative time
 ```bash
 npm run build       # Build the library with Rollup
 npm test            # Run tests with Jest
-
+```
 
