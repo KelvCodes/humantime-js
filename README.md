@@ -14,3 +14,6 @@
 ✅ Simple, clean & human-friendly  
 ✅ Quick to use and easy to customize
 ---
+
+
+## 📦 Installation
