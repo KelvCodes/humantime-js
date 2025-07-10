@@ -39,7 +39,7 @@ console.log(timeAgo(new Date())); // "just now"
 >✨ Make your UI, blog, feed, or dashboard feel more alive and user-friendly!
 
 ## 📜 API
-```bash
+```
 timeAgo(date: Date): string
 ```
 Takes a JavaScript ``` Date ```object and returns a human-readable relative time string.
