@@ -42,3 +42,6 @@ console.log(timeAgo(new Date())); // "just now"
 ```bash
 timeAgo(date: Date): string
 ```
+Takes a JavaScript Date object and returns a human-readable relative time string.
+
+
