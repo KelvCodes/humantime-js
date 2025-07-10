@@ -59,3 +59,7 @@ If you like this project, consider leaving a ⭐ to show your support!
 MIT © 2025 Agyare Kelvin Yeboah
 
 ## 🌟 Why humantime-js?
+Because your users deserve text that feels natural, familiar, and human – not robotic timestamps.
+
+
+
