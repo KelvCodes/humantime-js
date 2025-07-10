@@ -8,3 +8,4 @@
 ---
 
 ## ✨ Features
+✅ Ultra lightweight (under 1 KB) 
