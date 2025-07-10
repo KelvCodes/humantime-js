@@ -37,3 +37,5 @@ console.log(timeAgo(new Date(Date.now() - 3 * 60 * 1000))); // "3 mins ago"
 console.log(timeAgo(new Date())); // "just now"
 ```
 >✨ Make your UI, blog, feed, or dashboard feel more alive and user-friendly!
+
+##
