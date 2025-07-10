@@ -6,3 +6,5 @@
 
 > ⚡ A tiny JavaScript library to turn timestamps into friendly phrases like **"just now"**, **"5 mins ago"**, or **"yesterday"**.
 ---
+
+## ✨ Features
