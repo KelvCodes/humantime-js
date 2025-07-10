@@ -20,3 +20,5 @@
 ```bash
 npm install humantime-js
 ```
+or with yarn
+
