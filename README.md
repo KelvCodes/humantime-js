@@ -45,4 +45,5 @@ timeAgo(date: Date): string
 Takes a JavaScript ``` Date ```object and returns a human-readable relative time string.
 
 ## 🛠️ Build & Test
+```bash
 
