@@ -27,4 +27,4 @@ yarn add humantime-js
 ```
 
 ## 🚀 Usage
-
+```bash
