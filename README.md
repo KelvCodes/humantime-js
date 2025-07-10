@@ -18,3 +18,4 @@
 
 ## 📦 Installation
 ```bash
+npm install humantime-js
