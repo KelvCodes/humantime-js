@@ -12,3 +12,4 @@
 ✅ Zero dependencies  
 ✅ Works seamlessly in Node.js & browsers  
 ✅ Simple, clean & human-friendly  
+✅ Quick to use and easy to customize
