@@ -46,4 +46,7 @@ Takes a JavaScript ``` Date ```object and returns a human-readable relative time
 
 ## 🛠️ Build & Test
 ```bash
+npm run build       # Build the library with Rollup
+npm test            # Run tests with Jest
+
 
