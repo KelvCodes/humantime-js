@@ -55,4 +55,4 @@ Feel free to open an issue or submit a pull request.
 
 If you like this project, consider leaving a ⭐ to show your support!
 
-##
+## 📄 License
