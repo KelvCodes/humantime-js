@@ -1,4 +1,4 @@
-rs / 24);
+
   if (days === 1) return 'yesterday';
   if (days < 30) return `${days} days ago`;
 
