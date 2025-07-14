@@ -1,5 +1,5 @@
 
-  if (!date) return '';
+
 
   const now = new Date();
   const then = new Date(date);
