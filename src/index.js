@@ -1,5 +1,4 @@
-
-  if (years === 1) return 'a year ago';
+eturn 'a year ago';
 
   return `${years} years ago`;
 }
