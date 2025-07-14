@@ -1,6 +1,5 @@
 
-
-= Math.floor((now - then) / 1000);
+now - then) / 1000);
 
   if (seconds < 5) return 'just now';
   if (seconds < 60) return `${seconds} seconds ago`;
