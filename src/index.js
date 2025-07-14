@@ -2,8 +2,6 @@
 
 
 
-rn `${minutes} minutes ago`;
-
   const hours = Math.floor(minutes / 60);
   if (hours === 1) return 'an hour ago';
   if (hours < 24) return `${hours} hours ago`;
