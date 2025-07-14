@@ -1,5 +1,4 @@
-
-  if (hours < 24) return `${hours} hours ago`;
+urn `${hours} hours ago`;
 
   const days = Math.floor(hours / 24);
   if (days === 1) return 'yesterday';
