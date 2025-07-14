@@ -1,4 +1,1 @@
 
-
-  return `${years} years ago`;
-}
