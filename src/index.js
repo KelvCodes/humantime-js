@@ -1,4 +1,4 @@
-hours ago`;
+
 
   const days = Math.floor(hours / 24);
   if (days === 1) return 'yesterday';
