@@ -1,4 +1,4 @@
-export function timeAgo(date) {
+ion timeAgo(date) {
   if (!date) return '';
 
   const now = new Date();
