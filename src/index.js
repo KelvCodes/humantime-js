@@ -1,7 +1,7 @@
 
 
 
-  if (seconds < 5) return 'just now';
+eturn 'just now';
   if (seconds < 60) return `${seconds} seconds ago`;
 
   const minutes = Math.floor(seconds / 60);
