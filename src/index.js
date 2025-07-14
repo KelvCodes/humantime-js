@@ -1,6 +1,5 @@
 
-
-  const months = Math.floor(days / 30);
+ Math.floor(days / 30);
   if (months === 1) return 'a month ago';
   if (months < 12) return `${months} months ago`;
 
