@@ -1,6 +1,6 @@
 
 
-conds ago`;
+
 
   const minutes = Math.floor(seconds / 60);
   if (minutes === 1) return 'a minute ago';
