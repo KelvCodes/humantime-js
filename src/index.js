@@ -1,5 +1,5 @@
 
-  if (hours === 1) return 'an hour ago';
+) return 'an hour ago';
   if (hours < 24) return `${hours} hours ago`;
 
   const days = Math.floor(hours / 24);
