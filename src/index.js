@@ -1,7 +1,7 @@
 
 
 
-eturn 'a minute ago';
+
   if (minutes < 60) return `${minutes} minutes ago`;
 
   const hours = Math.floor(minutes / 60);
