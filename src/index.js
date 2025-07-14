@@ -1,4 +1,4 @@
-) return `${months} months ago`;
+hs} months ago`;
 
   const years = Math.floor(days / 365);
   if (years === 1) return 'a year ago';
