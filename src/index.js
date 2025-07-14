@@ -1,7 +1,5 @@
 
 
-
-  const then = new Date(date);
   const seconds = Math.floor((now - then) / 1000);
 
   if (seconds < 5) return 'just now';
