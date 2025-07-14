@@ -1,7 +1,6 @@
 
 
 
-ew Date();
   const then = new Date(date);
   const seconds = Math.floor((now - then) / 1000);
 
