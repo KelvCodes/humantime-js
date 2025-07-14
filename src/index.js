@@ -1,6 +1,5 @@
 
-
-  const days = Math.floor(hours / 24);
+h.floor(hours / 24);
   if (days === 1) return 'yesterday';
   if (days < 30) return `${days} days ago`;
 
