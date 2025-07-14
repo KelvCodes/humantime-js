@@ -1,5 +1,4 @@
 
-n 'a month ago';
   if (months < 12) return `${months} months ago`;
 
   const years = Math.floor(days / 365);
