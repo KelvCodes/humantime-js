@@ -1,5 +1,4 @@
 
-turn 'yesterday';
   if (days < 30) return `${days} days ago`;
 
   const months = Math.floor(days / 30);
