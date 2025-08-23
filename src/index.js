@@ -1,8 +1,6 @@
 'just now';
   if (seconds <
-  // Calculate difference in minutes
-  const minutes = Math.floor(seconds / 60);
-  if (minutes === 1) return 'a minute ago';
+  // Ca) return 'a minute ago';
   if (minutes < 60) return `${minutes} minutes ago`;
 
   // Calculate difference in hours
@@ -27,6 +25,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
