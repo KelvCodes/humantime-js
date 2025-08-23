@@ -1,5 +1,5 @@
 
-  if (hours === 1) return 'an hour ago';
+  if (hours
   if (hours < 24) return `${hours} hours ago`;
 
   // Calculate difference in days
@@ -19,6 +19,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
