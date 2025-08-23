@@ -1,5 +1,4 @@
-'just now';
-  if (seconds <
+
   // Ca) return 'a minute ago';
   if (minutes < 60) return `${minutes} minutes ago`;
 
@@ -25,6 +24,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
