@@ -1,5 +1,4 @@
-
-  if (months < 12) return `${months} months ago`;
+ 12) return `${months} months ago`;
 
   // Approximate difference in years (assuming ~365 days per year)
   const years = Math.floor(days / 365);
@@ -8,6 +7,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
