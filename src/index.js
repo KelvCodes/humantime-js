@@ -1,6 +1,4 @@
 
-  // Convert the input date to a Date object
-  const then = new Date(date);
   // Calculate difference in seconds
   const seconds = Math.floor((now - then) / 1000);
 
@@ -35,6 +33,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
