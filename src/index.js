@@ -1,6 +1,5 @@
 
-  // Calculate difference in seconds
-  const seconds = Math.floor((now - then) / 1000);
+  // Calculath.floor((now - then) / 1000);
 
   // Handle very recent times
   if (seconds < 5) return 'just now';
@@ -33,6 +32,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
