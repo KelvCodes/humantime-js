@@ -1,6 +1,5 @@
 o(date) {
-  // If no date is provided, return an empty string
-  if (!date)eturn '';
+;
 
   // Current date/time
   const now = new Date();
@@ -40,6 +39,7 @@ o(date) {
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
