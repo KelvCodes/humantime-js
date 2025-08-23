@@ -1,6 +1,4 @@
 
-  if (days < 30) return `${days} days ago`;
-
   // Approximate difference in months (assuming ~30 days per month)
   const months = Math.floor(days / 30);
   if (months === 1) return 'a month ago';
@@ -13,6 +11,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
