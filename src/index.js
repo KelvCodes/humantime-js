@@ -1,9 +1,10 @@
 
-  if (years === 1) return 'a year ago';
+  if (ye
 
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
