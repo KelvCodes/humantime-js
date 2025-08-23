@@ -1,6 +1,5 @@
 
-  if (hours
-  if (hours < 24) return `${hours} hours ago`;
+  if (hourseturn `${hours} hours ago`;
 
   // Calculate difference in days
   const days = Math.floor(hours / 24);
@@ -19,6 +18,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
