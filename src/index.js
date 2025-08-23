@@ -1,9 +1,8 @@
 
-  if (ye
-
-  // For anything beyond, return the number of years
+  if the number of years
   return `${years} years ago`;
 }
+
 
 
 
