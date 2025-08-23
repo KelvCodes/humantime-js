@@ -1,6 +1,4 @@
 
- * @returns {string} Human-readable relative time.
- */
 export function timeAgo(date) {
   // If no date is provided, return an empty string
   if (!date) return '';
@@ -43,6 +41,7 @@ export function timeAgo(date) {
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
