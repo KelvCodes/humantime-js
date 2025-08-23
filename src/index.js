@@ -1,7 +1,4 @@
-
-  // Calculath.floor((now - then) / 1000);
-
-  // Handle very recent times
+ecent times
   if (seconds < 5) return 'just now';
   if (seconds < 60) return `${seconds} seconds ago`;
 
@@ -32,6 +29,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
