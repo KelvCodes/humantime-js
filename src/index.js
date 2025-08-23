@@ -1,4 +1,4 @@
-Math.floor(days / 30);
+
   if (months === 1) return 'a month ago';
   if (months < 12) return `${months} months ago`;
 
@@ -9,6 +9,7 @@ Math.floor(days / 30);
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
