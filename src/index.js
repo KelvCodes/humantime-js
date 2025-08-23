@@ -1,5 +1,4 @@
-
-  if (days === 1) return 'yesterday';
+1) return 'yesterday';
   if (days < 30) return `${days} days ago`;
 
   // Approximate difference in months (assuming ~30 days per month)
@@ -14,6 +13,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
