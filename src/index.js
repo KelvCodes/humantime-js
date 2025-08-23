@@ -1,5 +1,3 @@
-o(date) {
-;
 
   // Current date/time
   const now = new Date();
@@ -39,6 +37,7 @@ o(date) {
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
