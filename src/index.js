@@ -1,6 +1,4 @@
 
-
-  // Calculate difference in days
   const days = Math.floor(hours / 24);
   if (days === 1) return 'yesterday';
   if (days < 30) return `${days} days ago`;
@@ -17,6 +15,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
