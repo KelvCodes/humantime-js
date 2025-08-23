@@ -1,5 +1,4 @@
 
-  // Current date/time
   const now = new Date();
   // Convert the input date to a Date object
   const then = new Date(date);
@@ -37,6 +36,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
