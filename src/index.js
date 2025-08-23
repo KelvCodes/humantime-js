@@ -1,5 +1,5 @@
 
-  if (months === 1) return 'a month ago';
+  if (montturn 'a month ago';
   if (months < 12) return `${months} months ago`;
 
   // Approximate difference in years (assuming ~365 days per year)
@@ -9,6 +9,7 @@
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
