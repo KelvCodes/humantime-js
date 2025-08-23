@@ -1,5 +1,4 @@
-/**
- * Formats a given date as a human-readable relative time string (e.g., "5 minutes ago", "yesterday").
+ given date as a human-readable relative time string (e.g., "5 minutes ago", "yesterday").
  * @param {string | number | Date} date - The date to format. Can be a Date object, timestamp, or ISO string.
  * @returns {string} Human-readable relative time.
  */
@@ -45,4 +44,5 @@ export function timeAgo(date) {
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
