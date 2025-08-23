@@ -1,7 +1,7 @@
 
-  if the number of years
   return `${years} years ago`;
 }
+
 
 
 
