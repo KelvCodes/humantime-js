@@ -1,5 +1,4 @@
-ecent times
-  if (seconds < 5) return 'just now';
+ecent t< 5) return 'just now';
   if (seconds < 60) return `${seconds} seconds ago`;
 
   // Calculate difference in minutes
@@ -29,6 +28,7 @@ ecent times
   // For anything beyond, return the number of years
   return `${years} years ago`;
 }
+
 
 
 
