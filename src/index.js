@@ -1,6 +1,4 @@
-ormat(locale, { numeric: 'auto' });
-
-  // Time intervals in seconds
+n seconds
   const intervals = [
     { unit: 'year', seconds: 31536000 },
     { unit: 'month', seconds: 2592000 },
@@ -27,6 +25,7 @@ ormat(locale, { numeric: 'auto' });
 // console.log(timeAgo(new Date(Date.now() - 86400000)));   // "yesterday"
 // console.log(timeAgo(new Date(Date.now() + 3600000)));    // "in 1 hour"
 // console.log(timeAgo("2025-01-01T00:00:00Z", 'fr'));      // "il y a 7 mois" (in French)
+
 
 
 
