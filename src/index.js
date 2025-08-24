@@ -2,8 +2,6 @@
 
 
 
-  if (isNaN(then.getTime())) return '';
-
   const seconds = Math.floor((now - then) / 1000);
 
   // Relative time formatter (auto handles pluralization & localization)
@@ -36,6 +34,7 @@
 // console.log(timeAgo(new Date(Date.now() - 86400000)));   // "yesterday"
 // console.log(timeAgo(new Date(Date.now() + 3600000)));    // "in 1 hour"
 // console.log(timeAgo("2025-01-01T00:00:00Z", 'fr'));      // "il y a 7 mois" (in French)
+
 
 
 
