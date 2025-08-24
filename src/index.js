@@ -1,5 +1,4 @@
-/**
- * Formats a given date as a human-readable relative time string
+ts a given date as a human-readable relative time string
  * (e.g., "5 minutes ago", "yesterday", "in 2 days").
  * 
  * @param {string | number | Date} date - The date to format. Can be a Date object, timestamp, or ISO string.
@@ -47,6 +46,7 @@ export function timeAgo(date, locale = 'en') {
 // console.log(timeAgo(new Date(Date.now() - 86400000)));   // "yesterday"
 // console.log(timeAgo(new Date(Date.now() + 3600000)));    // "in 1 hour"
 // console.log(timeAgo("2025-01-01T00:00:00Z", 'fr'));      // "il y a 7 mois" (in French)
+
 
 
 
