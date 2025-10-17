@@ -1,4 +1,4 @@
-tter = nseconds: 365 * 24 * 60 * 60 },  // 31536000
+65 * 24 * 60 * 60 },  // 31536000
     { label: 'month',  seconds: 30 * 24 * 60 * 60 },   // 2592000
     { label: 'day',    seconds: 24 * 60 * 60 },        // 86400
     { label: 'hour',   seconds: 60 * 60 },             // 3600
@@ -29,6 +29,7 @@ console.log(timeAgo(new Date(Date.now() - 5 * 60000)));  // "5 minutes ago"
 console.log(timeAgo(new Date(Date.now() - 86400000)));   // "yesterday"
 console.log(timeAgo(new Date(Date.now() + 3600000)));    // "in 1 hour"
 console.log(timeAgo("2025-01-01T00:00:00Z", 'fr'));      // "il y a 7 mois" (French)
+
 
 
 
