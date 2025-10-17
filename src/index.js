@@ -1,5 +1,5 @@
 
- *   - "yesterday"
+ *   -
  *   - "in 2 days"
  *
  * @param {string | number | Date} inputDate - Date to format (ISO string, timestamp, or Date object).
@@ -60,6 +60,7 @@ console.log(timeAgo(new Date(Date.now() - 5 * 60000)));  // "5 minutes ago"
 console.log(timeAgo(new Date(Date.now() - 86400000)));   // "yesterday"
 console.log(timeAgo(new Date(Date.now() + 3600000)));    // "in 1 hour"
 console.log(timeAgo("2025-01-01T00:00:00Z", 'fr'));      // "il y a 7 mois" (French)
+
 
 
 
