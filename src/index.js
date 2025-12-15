@@ -1,6 +1,5 @@
 
-  const diffInSeconds = Math.floor((now.getTime() - parsedDate.getTime()) / 1000);
-
+  const d
   // Handle near-zero difference
   if (Math.abs(diffInSeconds) < 1) return 'just now';
 
@@ -60,6 +59,7 @@ console.log(timeAgo(new Date(Date.now() + 3600000)));       // "in 1 hour"
 console.log(timeAgo("2025-01-01T00:00:00Z", 'fr'));         // "il y a 7 mois"
 console.log(timeAgo(Date.now() - 7200000, 'en', true));     // "2h ago"
 console.log(timeAgo(Date.now() + 3 * 86400000, 'en', true)); // "in 3d"
+
 
 
 
