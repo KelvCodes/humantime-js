@@ -1,156 +1,82 @@
-abel, seconds } of thresholds) {
-    )}${shortMap[label]}`;
+type TimeAgoUnit = 'year' | 'month' | 'day' | 'hour' | 'minute' | 'second';
+
+interface TimeAgoOptions {
+  locale?: string;
+  short?: boolean;
+  justNowThreshold?: number; // seconds
+}
+
+const TIME_UNITS: readonly {
+  unit: TimeAgoUnit;
+  seconds: number;
+}[] = [
+  { unit: 'year', seconds: 31536000 },
+  { unit: 'month', seconds: 2592000 },
+  { unit: 'day', seconds: 86400 },
+  { unit: 'hour', seconds: 3600 },
+  { unit: 'minute', seconds: 60 },
+  { unit: 'second', seconds: 1 }
+] as const;
+
+const SHORT_LABELS: Record<TimeAgoUnit, string> = {
+  year: 'y',
+  month: 'mo',
+  day: 'd',
+  hour: 'h',
+  minute: 'm',
+  second: 's'
+};
+
+export function timeAgo(
+  inputDate: string | number | Date,
+  options: TimeAgoOptions = {}
+): string {
+  const {
+    locale = 'en',
+    short = false,
+    justNowThreshold = 5
+  } = options;
+
+  if (!inputDate) return '';
+
+  const date = new Date(inputDate);
+  if (Number.isNaN(date.getTime())) return '';
+
+  const now = Date.now();
+  const diffSeconds = Math.round((now - date.getTime()) / 1000);
+  const absSeconds = Math.abs(diffSeconds);
+
+  // "Just now"
+  if (absSeconds <= justNowThreshold) {
+    return locale.startsWith('en') ? 'just now' : new Intl.RelativeTimeFormat(locale).format(0, 'second');
+  }
+
+  // Yesterday / Tomorrow (natural language)
+  const diffDays = diffSeconds / 86400;
+  if (Math.abs(diffDays) >= 0.9 && Math.abs(diffDays) < 1.5) {
+    return diffDays > 0 ? 'yesterday' : 'tomorrow';
+  }
+
+  const rtf = new Intl.RelativeTimeFormat(locale, {
+    numeric: 'auto'
+  });
+
+  for (const { unit, seconds } of TIME_UNITS) {
+    const value = Math.round(diffSeconds / seconds);
+
+    if (Math.abs(value) >= 1) {
+      // Short format: "5m ago" / "in 3d"
+      if (short) {
+        const label = SHORT_LABELS[unit];
+        return value > 0
+          ? `${Math.abs(value)}${label} ago`
+          : `in ${Math.abs(value)}${label}`;
       }
 
-      // Default → localized long form
-      return formatter.format(-interval, label);
+      // Localized long format
+      return rtf.format(-value, unit);
     }
   }
 
-  return 'just now';
+  return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
-
-// ---------------- Example Usage ----------------
-console.log(timeAgo(new Date(Date.now() - 45 * 1000)));      // "45 seconds ago"
-console.log(timeAgo(new Date(Date.now() - 5 * 60000)));     // "5 minutes ago"
-console.log(timeAgo(new Date(Date.now() - 86400000)));      // "yesterday"
-console.log(timeAgo(new Date(Date.now() + 3600000)));       // "in 1 hour"
-console.log(timeAgo("2025-01-01T00:00:00Z", 'fr'));         // "il y a 7 mois"
-console.log(timeAgo(Date.now() - 7200000, 'en', true));     // "2h ago"
-console.log(timeAgo(Date.now() + 3 * 86400000, 'en', true)); // "in 3d"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
