@@ -1,4 +1,4 @@
-edDate.getTime())) return '';
+e.getTime())) return '';
 
   // Current time and difference in seconds
   const now = new Date();
@@ -63,6 +63,7 @@ console.log(timeAgo(new Date(Date.now() + 3600000)));       // "in 1 hour"
 console.log(timeAgo("2025-01-01T00:00:00Z", 'fr'));         // "il y a 7 mois"
 console.log(timeAgo(Date.now() - 7200000, 'en', true));     // "2h ago"
 console.log(timeAgo(Date.now() + 3 * 86400000, 'en', true)); // "in 3d"
+
 
 
 
