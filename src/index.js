@@ -1,5 +1,4 @@
-
-  unit: TimeAgoUnit;
+ TimeAgoUnit;
   seconds: number;
 }[] = [
   { unit: 'year', seconds: 31536000 },
@@ -72,6 +71,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
