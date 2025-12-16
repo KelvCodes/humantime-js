@@ -1,4 +1,4 @@
-= 'year' | 'month' | 'day' | 'hour' | 'minute' | 'second';
+month' | 'day' | 'hour' | 'minute' | 'second';
 
 interface TimeAgoOptions {
   locale?: string;
@@ -80,6 +80,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
