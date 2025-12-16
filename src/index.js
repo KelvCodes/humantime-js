@@ -1,8 +1,4 @@
 
-    
-    justNowThreshold = 5
-  } = options;
-
   if (!inputDate) return '';
 
   const date = new Date(inputDate);
@@ -46,6 +42,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
