@@ -1,4 +1,4 @@
-reshold?:}
+
 
 const TIME_UNITS: readonly {
   unit: TimeAgoUnit;
@@ -74,6 +74,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
