@@ -1,12 +1,4 @@
-
-  if (!inputDate) return '';
-
-  const date = new Date(inputDate);
-  if (Number.isNaN(date.getTime())) return '';
-
-  const now = Date.now();
-  const diffSeconds = Math.round((now - date.getTime()) / 1000);
-  const absSeconds = Math.abs(diffSeconds);
+diffSeconds);
 
   // "Just now"
   if (absSeconds <= justNowThreshold) {
@@ -42,6 +34,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
