@@ -1,6 +1,4 @@
-
-
-export   inputDate: string | number | Date,
+nputDate: string | number | Date,
   options: TimeAgoOptions = {}
 ): string {
   const {
@@ -52,6 +50,7 @@ export   inputDate: string | number | Date,
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
