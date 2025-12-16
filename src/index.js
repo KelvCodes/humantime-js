@@ -1,6 +1,4 @@
 
-  second: 's'
-};
 
 export function timeAgo(
   inputDate: string | number | Date,
@@ -55,6 +53,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
