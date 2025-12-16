@@ -1,4 +1,4 @@
-nputDate: string | number | Date,
+ string | number | Date,
   options: TimeAgoOptions = {}
 ): string {
   const {
@@ -50,6 +50,7 @@ nputDate: string | number | Date,
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
