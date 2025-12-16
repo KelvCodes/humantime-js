@@ -1,5 +1,4 @@
-
-  { unit: 'month', seconds: 2592000 },
+ 'month', seconds: 2592000 },
   { unit: 'day', seconds: 86400 },
   { unit: 'hour', seconds: 3600 },
   { unit: 'minute', seconds: 60 },
@@ -68,6 +67,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
