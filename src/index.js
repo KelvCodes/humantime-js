@@ -1,5 +1,4 @@
-
- TIME_UNITS: readonly {
+ITS: readonly {
   unit: TimeAgoUnit;
   seconds: number;
 }[] = [
@@ -73,6 +72,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
