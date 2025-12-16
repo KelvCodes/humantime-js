@@ -1,5 +1,4 @@
 
-  year: 'y',
   month: 'mo',
   day: 'd',
   hour: 'h',
@@ -60,6 +59,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
