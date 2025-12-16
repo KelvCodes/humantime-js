@@ -1,13 +1,4 @@
-diffSeconds);
-
-  // "Just now"
-  if (absSeconds <= justNowThreshold) {
-    return locale.startsWith('en') ? 'just now' : new Intl.RelativeTimeFormat(locale).format(0, 'second');
-  }
-
-  // Yesterday / Tomorrow (natural language)
-  const diffDays = diffSeconds / 86400;
-  if (Math.abs(diffDays) >= 0.9 && Math.abs(diffDays) < 1.5) {
+Math.abs(diffDays) < 1.5) {
     return diffDays > 0 ? 'yesterday' : 'tomorrow';
   }
 
@@ -34,6 +25,7 @@ diffSeconds);
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
