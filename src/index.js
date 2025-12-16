@@ -1,4 +1,4 @@
-'minute', seconds: 60 },
+, seconds: 60 },
   { unit: 'second', seconds: 1 }
 ] as const;
 
@@ -64,6 +64,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
