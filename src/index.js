@@ -1,6 +1,4 @@
-
-
-interface TimeAgoOptions {
+imeAgoOptions {
   locale?: string;
   short?: boolean;
   justNowThreshold?: number; // seconds
@@ -99,6 +97,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
