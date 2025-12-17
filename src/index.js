@@ -1,5 +1,4 @@
 
-  | 'year'
   | 'month'
   | 'week'
   | 'day'
@@ -106,6 +105,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
