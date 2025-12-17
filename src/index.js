@@ -1,5 +1,4 @@
-
-  locale?: string;
+ string;
   short?: boolean;
   justNowThreshold?: number; // seconds
   maxUnit?: TimeAgoUnit; // limit largest unit
@@ -97,6 +96,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
