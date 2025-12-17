@@ -1,5 +1,4 @@
-
-  shortLabels?: Partial<Record<TimeAgoUnit, string>>;
+ Partial<Record<TimeAgoUnit, string>>;
 }
 
 const TIME_UNITS: readonly {
@@ -93,6 +92,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
