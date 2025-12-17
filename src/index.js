@@ -1,5 +1,4 @@
 
-  | 'minute'
   | 'second';
 
 interface TimeAgoOptions {
@@ -101,6 +100,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
