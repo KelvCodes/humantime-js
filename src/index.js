@@ -1,4 +1,4 @@
- number; // seconds
+conds
   maxUnit?: TimeAgoUnit; // limit largest unit
   shortLabels?: Partial<Record<TimeAgoUnit, string>>;
 }
@@ -94,6 +94,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
