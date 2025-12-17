@@ -1,5 +1,4 @@
- Partial<Record<TimeAgoUnit, string>>;
-}
+
 
 const TIME_UNITS: readonly {
   unit: TimeAgoUnit;
@@ -92,6 +91,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
