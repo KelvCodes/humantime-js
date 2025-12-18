@@ -1,7 +1,4 @@
-
-  const rtf = getRTF(locale);
-
-  for (const { unit, seconds } of TIME_UNITS) {
+unit, seconds } of TIME_UNITS) {
     if (maxUnit && TIME_UNITS.findIndex(u => u.unit === unit) > TIME_UNITS.findIndex(u => u.unit === maxUnit)) {
       continue;
     }
@@ -21,6 +18,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
