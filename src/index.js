@@ -1,6 +1,4 @@
 
-  seconds: number;
-}[] = [
   { unit: 'year', seconds: 31536000 },
   { unit: 'month', seconds: 2592000 },
   { unit: 'week', seconds: 604800 },
@@ -88,6 +86,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
