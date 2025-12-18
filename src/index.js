@@ -1,4 +1,4 @@
-al<Record<TimeAgoUnit, string>>;
+ring>>;
 }
 
 const TIME_UNITS: readonly { unit: TimeAgoUnit; seconds: number }[] = [
@@ -88,6 +88,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
