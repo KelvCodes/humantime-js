@@ -1,5 +1,4 @@
 
-  day: 'd',
   hour: 'h',
   minute: 'm',
   second: 's'
@@ -73,6 +72,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
