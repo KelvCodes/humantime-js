@@ -1,5 +1,4 @@
-
-  { unit: 'hour', seconds: 3600 },
+: 'hour', seconds: 3600 },
   { unit: 'minute', seconds: 60 },
   { unit: 'second', seconds: 1 }
 ] as const;
@@ -82,6 +81,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
