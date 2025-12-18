@@ -1,6 +1,3 @@
- - 1) < 0.5) return 'yesterday';
-    if (Math.abs(diffDays + 1) < 0.5) return 'tomorrow';
-  }
 
   const rtf = getRTF(locale);
 
@@ -24,6 +21,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
