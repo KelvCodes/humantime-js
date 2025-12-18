@@ -1,4 +1,4 @@
-alue)}${labels[unit]}`;
+abels[unit]}`;
       } else {
         // Intl.RelativeTimeFormat expects negative for past
         return rtf.format(-value, unit);
@@ -8,6 +8,7 @@ alue)}${labels[unit]}`;
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
