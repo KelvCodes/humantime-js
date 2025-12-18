@@ -1,5 +1,4 @@
-
-  { unit: 'week', seconds: 604800 },
+'week', seconds: 604800 },
   { unit: 'day', seconds: 86400 },
   { unit: 'hour', seconds: 3600 },
   { unit: 'minute', seconds: 60 },
@@ -84,6 +83,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
