@@ -1,5 +1,4 @@
 
-  short?: boolean;
   justNowThreshold?: number; // seconds
   maxUnit?: TimeAgoUnit; // largest unit to display
   shortLabels?: Partial<Record<TimeAgoUnit, string>>;
@@ -92,6 +91,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
