@@ -1,4 +1,4 @@
- readonly {
+
   unit: TimeAgoUnit;
   seconds: number;
 }[] = [
@@ -89,6 +89,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
