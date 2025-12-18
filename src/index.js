@@ -1,5 +1,3 @@
-ds: 1 },
-] as const;
 
 const DEFAULT_SHORT_LABELS: Record<TimeAgoUnit, string> = {
   year: 'y',
@@ -78,6 +76,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
