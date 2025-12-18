@@ -1,7 +1,4 @@
-nds = Math.round((now - date.getTime()) / 1000);
-  const absDiff = Math.abs(diffSeconds);
-
-  const labels = { ...DEFAULT_SHORT_LABELS, ...shortLabels };
+.DEFAULT_SHORT_LABELS, ...shortLabels };
 
   // --- Just now ---
   if (absDiff <= justNowThreshold) {
@@ -37,6 +34,7 @@ nds = Math.round((now - date.getTime()) / 1000);
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
