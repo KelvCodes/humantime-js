@@ -1,7 +1,4 @@
 
-const DEFAULT_SHORT_LABELS: Record<TimeAgoUnit, string> = {
-  year: 'y',
-  month: 'mo',
   week: 'w',
   day: 'd',
   hour: 'h',
@@ -76,6 +73,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
