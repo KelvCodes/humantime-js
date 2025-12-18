@@ -1,5 +1,4 @@
- 60 },
-  { unit: 'second', seconds: 1 },
+ds: 1 },
 ] as const;
 
 const DEFAULT_SHORT_LABELS: Record<TimeAgoUnit, string> = {
@@ -79,6 +78,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
