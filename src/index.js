@@ -1,10 +1,4 @@
-ache.get(locale)!;
-}
 
-export function timeAgo(
-  inputDate: string | number | Date,
-  options: TimeAgoOptions = {}
-): string {
   const {
     locale = 'en',
     short = false,
@@ -59,6 +53,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
