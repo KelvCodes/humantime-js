@@ -1,4 +1,4 @@
- Record<TimeAgoUnit, string> = {
+eAgoUnit, string> = {
   year: 'y',
   month: 'mo',
   week: 'w',
@@ -76,6 +76,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
