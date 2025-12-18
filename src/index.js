@@ -1,4 +1,4 @@
- seconds: 1 }
+
 ] as const;
 
 const DEFAULT_SHORT_LABELS: Record<TimeAgoUnit, string> = {
@@ -79,6 +79,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
