@@ -1,7 +1,4 @@
-
-
-  const date = new Date(input);
-  if (Number.isNaN(date.getTime())) return '';
+ime())) return '';
 
   const now = Date.now();
   const diffSeconds = Math.round((now - date.getTime()) / 1000);
@@ -43,6 +40,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
