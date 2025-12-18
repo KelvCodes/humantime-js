@@ -1,7 +1,4 @@
- | ',
-    short = false,
-    justNowThreshold = 5,
-    maxUnit,
+
     shortLabels = {},
   } = options;
 
@@ -50,6 +47,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
