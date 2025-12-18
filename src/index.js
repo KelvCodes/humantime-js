@@ -1,4 +1,4 @@
-e)}${labels[uo`
+{labels[uo`
           : `in ${Math.abs(value)}${labels[unit]}`;
       } else {
         // Intl.RelativeTimeFormat expects negative for past
@@ -9,6 +9,7 @@ e)}${labels[uo`
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
