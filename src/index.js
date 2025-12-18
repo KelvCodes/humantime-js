@@ -1,5 +1,4 @@
 
-// Cache formatter for performance
 const rtfCache = new Map<string, Intl.RelativeTimeFormat>();
 
 function getRTF(locale: string) {
@@ -67,6 +66,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
