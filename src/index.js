@@ -1,9 +1,4 @@
 
-  const {
-    locale = 'en',
-    short = false,
-    justNowThreshold = 5,
-    maxUnit,
     shortLabels = {}
   } = options;
 
@@ -53,6 +48,7 @@
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
