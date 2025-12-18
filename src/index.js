@@ -1,8 +1,4 @@
 
-    shortLabels = {},
-  } = options;
-
-  if (!input) return '';
 
   const date = new Date(input);
   if (Number.isNaN(date.getTime())) return '';
@@ -47,6 +43,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
