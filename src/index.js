@@ -1,5 +1,4 @@
-iff <= justNowThreshold) {
-    return 
+
 
   // --- Yesterday / Tomorrow ---
   if (locale.startsWith('en')) {
@@ -30,6 +29,7 @@ iff <= justNowThreshold) {
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
