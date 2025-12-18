@@ -1,5 +1,4 @@
-tsWith('en')) {
-    diffDays - 1) < 0.5) return 'yesterday';
+ - 1) < 0.5) return 'yesterday';
     if (Math.abs(diffDays + 1) < 0.5) return 'tomorrow';
   }
 
@@ -25,6 +24,7 @@ tsWith('en')) {
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
