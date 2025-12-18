@@ -1,9 +1,4 @@
 
-    shortLabels = {}
-  } = options;
-
-  if (!inputDate) return '';
-
   const date = new Date(inputDate);
   if (Number.isNaN(date.getTime())) return '';
 
@@ -48,6 +43,7 @@
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
