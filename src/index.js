@@ -1,7 +1,4 @@
-.DEFAULT_SHORT_LABELS, ...shortLabels };
-
-  // --- Just now ---
-  if (absDiff <= justNowThreshold) {
+iff <= justNowThreshold) {
     return locale.startsWith('en') ? 'just now' : getRTF(locale).format(0, 'second');
   }
 
@@ -34,6 +31,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
