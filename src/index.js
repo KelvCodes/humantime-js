@@ -1,5 +1,5 @@
 
-    const ) {
+
         ue > 0
           ? `${Math.abs(value)}${labels[unit]} ago`
           : `in ${Math.abs(value)}${labels[unit]}`;
@@ -12,6 +12,7 @@
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
