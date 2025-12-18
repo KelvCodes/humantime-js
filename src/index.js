@@ -1,8 +1,4 @@
-cheKey)!;
-}
-
-export function timeAgo(
-  input: string | number | Date,
+ | number | Date,
   options: TimeAgoOptions = {}
 ): string {
   const {
@@ -58,6 +54,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
