@@ -1,7 +1,4 @@
-unit, seconds } of TIME_UNITS) {
-    if (maxUnit && 
-    }
-
+unit, seconds 
     const value = Math.round(diffSeconds / seconds);
     if (Math.abs(value) >= 1) {
       if (short) {
@@ -17,6 +14,7 @@ unit, seconds } of TIME_UNITS) {
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
