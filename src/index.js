@@ -1,6 +1,5 @@
 tsWith('en')) {
-    const diffDays = diffSeconds / TIME_UNITS.find(u => u.unit === 'day')!.seconds;
-    if (Math.abs(diffDays - 1) < 0.5) return 'yesterday';
+    diffDays - 1) < 0.5) return 'yesterday';
     if (Math.abs(diffDays + 1) < 0.5) return 'tomorrow';
   }
 
@@ -26,6 +25,7 @@ tsWith('en')) {
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
