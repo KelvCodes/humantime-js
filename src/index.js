@@ -1,7 +1,4 @@
-ime())) return '';
-
-  const now = Date.now();
-  const diffSeconds = Math.round((now - date.getTime()) / 1000);
+nds = Math.round((now - date.getTime()) / 1000);
   const absDiff = Math.abs(diffSeconds);
 
   const labels = { ...DEFAULT_SHORT_LABELS, ...shortLabels };
@@ -40,6 +37,7 @@ ime())) return '';
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
