@@ -1,4 +1,4 @@
-nit: 'day', seconds: 86400 },
+seconds: 86400 },
   { unit: 'hour', seconds: 3600 },
   { unit: 'minute', seconds: 60 },
   { unit: 'second', seconds: 1 }
@@ -82,6 +82,7 @@ export function timeAgo(
     ? 'just now'
     : rtf.format(0, 'second');
 }
+
 
 
 
