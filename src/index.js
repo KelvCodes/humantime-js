@@ -1,6 +1,4 @@
-();
-function getRTF(locale: string, numeric: locale}-${numeric}`;
-  if (!rtfCache.has(cacheKey)) {
+heKey)) {
     rtfCache.set(cacheKey, new Intl.RelativeTimeFormat(locale, { numeric }));
   }
   return rtfCache.get(cacheKey)!;
@@ -63,6 +61,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
