@@ -1,11 +1,4 @@
 
-  week: 'w',
-  day: 'd',
-  hour: 'h',
-  minute: 'm',
-  second: 's',
-};
-
 // Cache for Intl.RelativeTimeFormat
 const rtfCache = new Map<string, Intl.RelativeTimeFormat>();
 function getRTF(locale: string, numeric: 'auto' | 'always' = 'auto') {
@@ -73,6 +66,7 @@ export function timeAgo(
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
