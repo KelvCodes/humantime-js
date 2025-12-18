@@ -1,4 +1,4 @@
-s negative for past
+ve for past
         return rtf.format(-value, unit);
       }
     }
@@ -6,6 +6,7 @@ s negative for past
 
   return locale.startsWith('en') ? 'just now' : rtf.format(0, 'second');
 }
+
 
 
 
