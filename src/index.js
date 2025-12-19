@@ -1,9 +1,4 @@
 
-    rtf = new Intl.RelativeTimeFormat(locale, { numeric });
-    rtfCache.set(key, rtf);
-  }
-  return rtf;
-}
 
 // ---- Core function ----
 export function timeAgo(
@@ -65,6 +60,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
