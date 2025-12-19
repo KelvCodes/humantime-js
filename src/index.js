@@ -1,5 +1,4 @@
 
-  | 'second';
 
 interface TimeAgoOptions {
   locale?: string;
@@ -106,6 +105,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
