@@ -1,5 +1,4 @@
 
-  year: 'y',
   month: 'mo',
   week: 'w',
   day: 'd',
@@ -81,6 +80,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
