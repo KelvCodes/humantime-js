@@ -1,5 +1,4 @@
-
-  { unit: 'second', seconds: 1 },
+'second', seconds: 1 },
 ] as const satisfies readonly { unit: TimeAgoUnit; seconds: number }[];
 
 const UNIT_INDEX: Record<TimeAgoUnit, number> = Object.fromEntries(
@@ -89,6 +88,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
