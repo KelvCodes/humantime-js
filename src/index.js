@@ -1,10 +1,4 @@
 
-
-// ---- Core function ----
-export function timeAgo(
-  input: string | number | Date,
-  options: TimeAgoOptions = {}
-): string {
   const {
     locale = 'en',
     short = false,
@@ -60,6 +54,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
