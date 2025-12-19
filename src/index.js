@@ -1,4 +1,4 @@
-Options {
+
   locale?: string;
   short?: boolean;
   justNowThreshold?: number; // seconds
@@ -103,6 +103,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
