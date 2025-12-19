@@ -1,5 +1,4 @@
-;
-  justNowThreshold?: number; // seconds
+?: number; // seconds
   maxUnit?: TimeAgoUnit;
   shortLabels?: Partial<Record<TimeAgoUnit, string>>;
 }
@@ -101,6 +100,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
