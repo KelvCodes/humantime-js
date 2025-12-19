@@ -1,4 +1,4 @@
-: 'year', seconds: 31_536_000 },
+econds: 31_536_000 },
   { unit: 'month', seconds: 2_592_000 },
   { unit: 'week', seconds: 604_800 },
   { unit: 'day', seconds: 86_400 },
@@ -94,6 +94,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
