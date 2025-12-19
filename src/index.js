@@ -1,4 +1,4 @@
- new Map<string, Intl.RelativeTimeFormat>();
+
 
 function getRTF(locale: string, numeric: 'auto' | 'always' = 'auto') {
   const key = `${locale}:${numeric}`;
@@ -70,6 +70,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
