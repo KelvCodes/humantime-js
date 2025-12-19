@@ -1,6 +1,4 @@
-
-
-function getR: string, numeric: 'auto' | 'always' = 'auto') {
+numeric: 'auto' | 'always' = 'auto') {
   const key = `${locale}:${numeric}`;
   let rtf = rtfCache.get(key);
   if (!rtf) {
@@ -70,6 +68,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
