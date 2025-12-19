@@ -1,5 +1,4 @@
-
-  TIME_UNITS.map((u, i) => [u.unit, i])
+(u, i) => [u.unit, i])
 ) as Record<TimeAgoUnit, number>;
 
 const DEFAULT_SHORT_LABELS: Readonly<Record<TimeAgoUnit, string>> = {
@@ -85,6 +84,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
