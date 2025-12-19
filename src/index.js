@@ -1,4 +1,4 @@
-d<TimeAgoUnit, number> = Object.fromEntries(
+nit, number> = Object.fromEntries(
   TIME_UNITS.map((u, i) => [u.unit, i])
 ) as Record<TimeAgoUnit, number>;
 
@@ -85,6 +85,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
