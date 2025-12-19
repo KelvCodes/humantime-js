@@ -1,4 +1,4 @@
-FAULT_SHORT_LABELS: Readonly<Record<TimeAgoUnit, string>> = {
+BELS: Readonly<Record<TimeAgoUnit, string>> = {
   year: 'y',
   month: 'mo',
   week: 'w',
@@ -81,6 +81,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
