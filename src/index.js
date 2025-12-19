@@ -1,4 +1,4 @@
-eonth', seconds: 2_592_000 },
+ds: 2_592_000 },
   { unit: 'week', seconds: 604_800 },
   { unit: 'day', seconds: 86_400 },
   { unit: 'hour', seconds: 3_600 },
@@ -93,6 +93,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
