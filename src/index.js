@@ -1,4 +1,4 @@
-BELS: Readonly<Record<TimeAgoUnit, string>> = {
+y<Record<TimeAgoUnit, string>> = {
   year: 'y',
   month: 'mo',
   week: 'w',
@@ -81,6 +81,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
    }
+
 
 
 
