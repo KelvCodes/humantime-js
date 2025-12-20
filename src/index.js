@@ -1,17 +1,4 @@
 
-
-/* -------------------------------------------------------------------------- */
-
-    formatter = new Intl.RelativeTimeFormat(locale, { numeric });
-    rtfCache.set(key, formatter);
-  }
-  return formatter;
-}
-
-/* -------------------------------------------------------------------------- */
-/* Core API                                                                    */
-/* -------------------------------------------------------------------------- */
-
 export function timeAgo(
   input: string | number | Date,
   options: TimeAgoOptions = {}
@@ -75,6 +62,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
