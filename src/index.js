@@ -1,4 +1,4 @@
-ds considered as "just now" */
+dered as "just now" */
   justNowThreshold?: number;
 
   /** Largest unit allowed (e.g. 'day' => never show weeks/months) */
@@ -123,6 +123,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
