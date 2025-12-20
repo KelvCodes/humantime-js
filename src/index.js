@@ -1,4 +1,4 @@
-in 2d" */
+
   short?: boolean;
 
   /** Seconds considered as "just now" */
@@ -126,6 +126,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
