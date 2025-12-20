@@ -1,4 +1,4 @@
-uality: production, library-ready, i18n-first
+library-ready, i18n-first
  * ========================================================================== */
 
 export type TimeAgoUnit =
@@ -142,6 +142,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
