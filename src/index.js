@@ -1,4 +1,4 @@
-nd', seconds: 1 },
+
 ] as const satisfies readonly { unit: TimeAgoUnit; seconds: number }[];
 
 /* Fast lookup instead of repeated findIndex */
@@ -102,6 +102,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
