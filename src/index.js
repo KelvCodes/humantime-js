@@ -1,10 +1,7 @@
 
 
 const DEFAULT_SHORT_LABELS: Readonly<Record<TimeAgoUnit, string>> = {
-  year: 'y',
-  month: 'mo',
-  week: 'w',
-  day: 'd',
+ 
   hour: 'h',
   minute: 'm',
   second: 's',
@@ -96,6 +93,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
