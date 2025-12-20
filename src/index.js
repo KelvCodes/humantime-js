@@ -1,4 +1,4 @@
--------------------------------------------------------------------- */
+
 
 const TIME_UNITS = [
   { unit: 'year', seconds: 31_536_000 },
@@ -111,6 +111,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
