@@ -1,5 +1,5 @@
 
-  | 'day'
+
   | 'hour'
   | 'minute'
   | 'second';
@@ -136,6 +136,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
