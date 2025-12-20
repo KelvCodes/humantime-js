@@ -1,6 +1,4 @@
 
-] as const satisfies readonly { unit: TimeAgoUnit; seconds: number }[];
-
 /* Fast lookup instead of repeated findIndex */
 const UNIT_INDEX: Readonly<Record<TimeAgoUnit, number>> = Object.fromEntries(
   TIME_UNITS.map((u, i) => [u.unit, i])
@@ -102,6 +100,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
