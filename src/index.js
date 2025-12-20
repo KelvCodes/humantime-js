@@ -1,4 +1,4 @@
-====================================================================
+==============================================
  * TimeAgo — human-readable relative time formatter
  * Author-quality: production, library-ready, i18n-first
  * ========================================================================== */
@@ -144,6 +144,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
