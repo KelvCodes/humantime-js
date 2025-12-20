@@ -1,12 +1,5 @@
 
 
-const DEFAULT_SHORT_LABELS: Readonly<Record<TimeAgoUnit, string>> = {
- 
-  hour: 'h',
-  minute: 'm',
-  second: 's',
-};
-
 /* -------------------------------------------------------------------------- */
 /* Intl.RelativeTimeFormat cache                                               */
 /* -------------------------------------------------------------------------- */
@@ -93,6 +86,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
