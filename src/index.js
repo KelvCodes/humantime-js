@@ -1,18 +1,7 @@
 
 
 /* -------------------------------------------------------------------------- */
-/* Intl.RelativeTimeFormat cache                                               */
-/* -------------------------------------------------------------------------- */
 
-const rtfCache = new Map<string, Intl.RelativeTimeFormat>();
-
-function getRTF(
-  locale: string,
-  numeric: 'auto' | 'always' = 'auto'
-): Intl.RelativeTimeFormat {
-  const key = `${locale}:${numeric}`;
-  let formatter = rtfCache.get(key);
-  if (!formatter) {
     formatter = new Intl.RelativeTimeFormat(locale, { numeric });
     rtfCache.set(key, formatter);
   }
@@ -86,6 +75,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
