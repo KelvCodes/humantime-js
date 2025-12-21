@@ -1,4 +1,4 @@
-design systems, OSS libraries
+stems, OSS libraries
  * ========================================================================== */
 
 export type TimeAgoUnit =
@@ -144,6 +144,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
