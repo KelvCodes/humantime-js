@@ -1,6 +1,6 @@
 
 
-  /** Largest unit allowed (e.g. 'day' => never show weeks/months) */
+  /** Largest.g. 'day' => never show weeks/months) */
   maxUnit?: TimeAgoUnit;
 
   /** Override short unit labels */
@@ -124,6 +124,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
