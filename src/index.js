@@ -1,17 +1,4 @@
 
-ed la
-/* O(1) unit ordering lookup */
-const UNIT_INDEX: Readonly<Record<TimeAgoUnit, number>> = Object.fromEntries(
-  TIME_UNITS.map((u, i) => [u.unit, i])
-) as Record<TimeAgoUnit, number>;
-
-const DEFAULT_SHORT_LABELS: Readonly<Record<TimeAgoUnit, string>> = {
-  year: 'y',
-  month: 'mo',
-  week: 'w',
-  day: 'd',
-  hour: 'h',
-  minute: 'm',
   second: 's',
 };
 
@@ -103,6 +90,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
