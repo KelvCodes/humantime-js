@@ -1,4 +1,4 @@
-ncy-free, i18n-first utility for formatting
+i18n-first utility for formatting
  *   dates as human-readable relative time (e.g. "just now", "2h ago", "in 3 days").
  *
  * Design goals:
@@ -155,6 +155,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
