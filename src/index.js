@@ -1,10 +1,5 @@
 
-  /** Override short unit labels */
-  shortLabels?: Partial<Record<TimeAgoUnit, string>>;
-}
-
-/* -------------------------------------------------------------------------- */
-/* Time unit table (ordered largest → smallest)                                */
+ed largest → smallest)                                */
 /* -------------------------------------------------------------------------- */
 
 const TIME_UNITS = [
@@ -120,6 +115,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
