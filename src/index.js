@@ -1,4 +1,4 @@
---------------------
+
  * Author: Kelvin Agyare Yeboah
  * Description:
  *   A production-grade, dependency-free, i18n-first utility for formatting
@@ -158,6 +158,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
