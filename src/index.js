@@ -1,5 +1,4 @@
-
- *   dates as human-readable relative time (e.g. "just now", "2h ago", "in 3 days").
+ human-readable relative time (e.g. "just now", "2h ago", "in 3 days").
  *
  * Design goals:
  *   • Deterministic output (no jitter)
@@ -155,6 +154,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
