@@ -1,10 +1,6 @@
 
 ed largest → smallest)                                */
-/* -------------------------------------------------------------------------- */
-
-const TIME_UNITS = [
-  { unit: 'year', seconds: 31_536_000 },
-  { unit: 'month', seconds: 2_592_000 },
+92_000 },
   { unit: 'week', seconds: 604_800 },
   { unit: 'day', seconds: 86_400 },
   { unit: 'hour', seconds: 3_600 },
@@ -115,6 +111,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
