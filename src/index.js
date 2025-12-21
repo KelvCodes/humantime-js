@@ -1,6 +1,4 @@
 
-  maxUnit?: TimeAgoUnit;
-
   /** Override short unit labels */
   shortLabels?: Partial<Record<TimeAgoUnit, string>>;
 }
@@ -122,6 +120,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
