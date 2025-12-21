@@ -1,6 +1,4 @@
 
- TimeAgoUnit =
-  | 'year'
   | 'month'
   | 'week'
   | 'day'
@@ -142,6 +140,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
