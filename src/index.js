@@ -1,4 +1,4 @@
-o — human-readable relative time formatter
+-readable relative time formatter
  * ----------------------------------------------------------------------------
  * Author: Kelvin Agyare Yeboah
  * Description:
@@ -159,6 +159,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
