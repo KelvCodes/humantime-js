@@ -1,4 +1,4 @@
-('returns seconds ago', () => {
+rns seconds ago', () => {
   const d = new Date(Date.now() - 10 * 1000); // 10 seconds ago
   expect(timeAgo(d)).toBe('10 seconds ago');
 });
@@ -12,6 +12,7 @@ test('returns "yesterday"', () => {
   const d = new Date(Date.now() - 24 * 60 * 60 * 1000); // 1 day ago
   expect(timeAgo(d)).toBe('yesterday');
 });
+
 
 
 
