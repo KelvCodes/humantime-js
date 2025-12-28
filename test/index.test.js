@@ -1,6 +1,4 @@
-
-
-test('returns "just now" for very recent date', () => {
+returns "just now" for very recent date', () => {
   expect(timeAgo(new Date())).toBe('just now');
 });
 
@@ -18,6 +16,7 @@ test('returns "yesterday"', () => {
   const d = new Date(Date.now() - 24 * 60 * 60 * 1000); // 1 day ago
   expect(timeAgo(d)).toBe('yesterday');
 });
+
 
 
 
