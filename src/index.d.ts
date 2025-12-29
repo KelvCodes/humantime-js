@@ -1,4 +1,5 @@
-timgo(date: string | number | Date): string;
+mgo(date: string | number | Date): string;
+
 
 
 
