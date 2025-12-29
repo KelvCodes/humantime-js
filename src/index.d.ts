@@ -1,5 +1,4 @@
-
-describe('timeAgo()', () => {
+ibe('timeAgo()', () => {
   test('returns "just now" for current time', () => {
     const now = new Date();
     expect(timeAgo(now)).toBe('just now');
@@ -44,6 +43,7 @@ describe('timeAgo()', () => {
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
