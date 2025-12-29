@@ -1,4 +1,5 @@
-mgo(date: string | number | Date): string;
+(date: string | number | Date): string;
+
 
 
 
