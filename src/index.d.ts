@@ -1,4 +1,4 @@
-dsAgo)).toBe('10 seconds ago');
+toBe('10 seconds ago');
   });
 
   test('returns 1 second ago (singular)', () => {
@@ -35,6 +35,7 @@ dsAgo)).toBe('10 seconds ago');
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
