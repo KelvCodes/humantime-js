@@ -1,4 +1,4 @@
-('just now');
+
   });
 
   test('returns seconds ago for less than a minute', () => {
@@ -40,6 +40,7 @@
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
