@@ -1,4 +1,4 @@
-toBe('10 seconds ago');
+conds ago');
   });
 
   test('returns 1 second ago (singular)', () => {
@@ -35,6 +35,7 @@ toBe('10 seconds ago');
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
