@@ -1,4 +1,5 @@
-(: string | number | Date): string;
+ring | number | Date): string;
+
 
 
 
