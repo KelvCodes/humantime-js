@@ -1,4 +1,4 @@
-o for less than a minute', () => {
+
   
     const secondsAgo = new Date(Date.now() - 10 * 1000);
     expect(timeAgo(secondsAgo)).toBe('10 seconds ago');
@@ -38,6 +38,7 @@ o for less than a minute', () => {
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
