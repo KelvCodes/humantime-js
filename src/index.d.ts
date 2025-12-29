@@ -1,4 +1,5 @@
-ion timeAgo(date: string | number | Date): string;
+timeAgo(date: string | number | Date): string;
+
 
 
 
