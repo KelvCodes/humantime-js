@@ -1,5 +1,5 @@
-
-  test('returns seconds ago for less than a minute', () => {
+sreturns seconds ago for less than a minute', () => {
+  
     const secondsAgo = new Date(Date.now() - 10 * 1000);
     expect(timeAgo(secondsAgo)).toBe('10 seconds ago');
   });
@@ -38,6 +38,7 @@
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
