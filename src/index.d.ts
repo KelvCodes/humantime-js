@@ -1,4 +1,5 @@
-(date: string | number | Date): string;
+(: string | number | Date): string;
+
 
 
 
