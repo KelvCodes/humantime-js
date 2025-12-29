@@ -1,4 +1,4 @@
-imeAgo()', () => {
+o()', () => {
   test('returns "just now" for current time', () => {
     const now = new Date();
     expect(timeAgo(now)).toBe('just now');
@@ -43,6 +43,7 @@ imeAgo()', () => {
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
