@@ -1,4 +1,4 @@
-Date();
+
     expect(timeAgo(now)).toBe('just now');
   });
 
@@ -41,6 +41,7 @@ Date();
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
