@@ -1,4 +1,3 @@
- } from '../src/index.js';
 
 describe('timeAgo()', () => {
   test('returns "just now" for current time', () => {
@@ -45,6 +44,7 @@ describe('timeAgo()', () => {
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
