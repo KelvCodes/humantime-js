@@ -1,5 +1,4 @@
-
- go = new Date(Date.now() - 10 * 1000);
+e(Date.now() - 10 * 1000);
     expect(Ago(secondsAgo)).toBe('10 seconds ago');
   });
 
@@ -37,6 +36,7 @@
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
