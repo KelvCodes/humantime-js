@@ -1,4 +1,5 @@
-e function timeAgo(date: string | number | Date): string;
+nction timeAgo(date: string | number | Date): string;
+
 
 
 
