@@ -1,7 +1,4 @@
-conds ago');
-  });
-
-  test('returns 1 second ago (singular)', () => {
+eturns 1 second ago (singular)', () => {
     const oneSecondAgo = new Date(Date.now() - 1 * 1000);
     expect(timeAgo(oneSecondAgo)).toBe('1 second ago');
   });
@@ -35,6 +32,7 @@ conds ago');
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
