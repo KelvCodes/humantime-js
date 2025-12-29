@@ -1,3 +1,4 @@
-port declare function timeAgo(date: string | number | Date): string;
+ declare function timeAgo(date: string | number | Date): string;
+
 
 
