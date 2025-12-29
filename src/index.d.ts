@@ -1,5 +1,4 @@
- for current time', () => {
-    const now = new Date();
+ now = new Date();
     expect(timeAgo(now)).toBe('just now');
   });
 
@@ -42,6 +41,7 @@
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
