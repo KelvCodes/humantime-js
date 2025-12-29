@@ -1,5 +1,5 @@
 
-  test('returns "just now" for current time', () => {
+turns "just now" for current time', () => {
     const now = new Date();
     expect(timeAgo(now)).toBe('just now');
   });
@@ -43,6 +43,7 @@
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
