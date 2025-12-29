@@ -1,14 +1,4 @@
-
-  test('returns minutes ago for less than an hour', () => {
-
-  test('returns 1 minute ago (singular)', () => {
-    const oneMinuteAgo = new Date(Date.now() - 60 * 1000);
-    expect(timeAgo(oneMinuteAgo)).toBe('1 minute ago');
-  });
-
-  test('returns hours ago for less than a day', () => {
-    const hoursAgo = new Date(Date.now() - 3 * 60 * 60 * 1000);
-    expect(timeAgo(hoursAgo)).toBe('3 hours ago');
+xpect(timeAgo(hoursAgo)).toBe('3 hours ago');
   });
 
   test('returns "yesterday" for exactly one day ago', () => {
@@ -25,6 +15,7 @@
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
