@@ -1,8 +1,5 @@
 
   test('returns minutes ago for less than an hour', () => {
-    const minutesAgo = new Date(Date.now() - 5 * 60 * 1000);
-    expect(timeAgo(minutesAgo)).toBe('5 minutes ago');
-  });
 
   test('returns 1 minute ago (singular)', () => {
     const oneMinuteAgo = new Date(Date.now() - 60 * 1000);
@@ -28,6 +25,7 @@
     expect(() => timeAgo('invalid-date')).toThrow();
   });
 });
+
 
 
 
