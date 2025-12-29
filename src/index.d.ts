@@ -1,4 +1,5 @@
- declare function timeAgo(date: string | number | Date): string;
+lare function timeAgo(date: string | number | Date): string;
+
 
 
 
