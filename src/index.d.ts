@@ -1,2 +1,3 @@
-xport declare function timeAgo(date: string | number | Date): string;
+port declare function timeAgo(date: string | number | Date): string;
+
 
