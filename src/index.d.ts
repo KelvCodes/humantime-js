@@ -1,4 +1,5 @@
-lare function timeAgo(date: string | number | Date): string;
+e function timeAgo(date: string | number | Date): string;
+
 
 
 
