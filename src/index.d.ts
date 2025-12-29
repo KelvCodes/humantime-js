@@ -1,4 +1,5 @@
-timeAgo(date: string | number | Date): string;
+timgo(date: string | number | Date): string;
+
 
 
 
