@@ -1,15 +1,7 @@
 it, string>>;
 }
 
-/* -------------------------------------------------------------------------- */
-/* Defaults                                                                    */
-/* -------------------------------------------------------------------------- */
 
-const DEFAULT_OPTIONS: Required<
-  Pick<TimeAgoOptions, 'locale' | 'short' | 'justNowThreshold'>
-> = Object.freeze({
-  locale: 'en',
-  short: false,
   justNowThreshold: 5,
 });
 
@@ -133,6 +125,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
