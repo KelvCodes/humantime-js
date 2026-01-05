@@ -1,8 +1,4 @@
-
-
-  | 'second';
-
-export interface TimeAgoOptions {
+e TimeAgoOptions {
   /** BCP-47 locale string (default: 'en') */
   locale?: string;
 
@@ -151,6 +147,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
