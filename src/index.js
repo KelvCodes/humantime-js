@@ -1,5 +1,4 @@
 
- * Design goals:
  *   • Deterministic output (no jitter)
  *   • Intl-native localization
  *   • High performance (cached formatters)
@@ -168,6 +167,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
