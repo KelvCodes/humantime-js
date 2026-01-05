@@ -1,5 +1,4 @@
-extensible API
- *
+
  * Suitable for:
  *   UI feeds, timelines, logs, analytics, design systems, OSS libraries
  * ========================================================================== */
@@ -162,6 +161,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
