@@ -1,5 +1,4 @@
-e TimeAgoOptions {
-  /** BCP-47 locale string (default: 'en') */
+string (default: 'en') */
   locale?: string;
 
   /** Compact output: "5m ago", "in 2d" */
@@ -147,6 +146,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
