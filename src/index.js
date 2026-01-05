@@ -1,5 +1,4 @@
-
- *   • Deterministic output (no jitter)
+c output (no jitter)
  *   • Intl-native localization
  *   • High performance (cached formatters)
  *   • Tree-shakable, framework-agnostic
@@ -167,6 +166,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
