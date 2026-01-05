@@ -1,4 +1,4 @@
-lvin Agyare Yeboah
+ Yeboah
  * Description:
  *   A production-grade, dependency-free, i18n-first utility for formatting
  *   dates as human-readable relative time (e.g. "just now", "2h ago", "in 3 days").
@@ -172,6 +172,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
