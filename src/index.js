@@ -1,4 +1,3 @@
-=============================== */
 
 export type TimeAgoUnit =
   | 'year'
@@ -158,6 +157,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
