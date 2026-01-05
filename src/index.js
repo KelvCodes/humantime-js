@@ -1,5 +1,4 @@
-
- *   • Tree-shakable, framework-agnostic
+shakable, framework-agnostic
  *   • Safe defaults, extensible API
  *
  * Suitable for:
@@ -164,6 +163,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
