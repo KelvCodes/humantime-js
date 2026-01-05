@@ -1,4 +1,4 @@
-human-readable relative time formatter
+dable relative time formatter
  * ----------------------------------------------------------------------------
  * Author: Kelvin Agyare Yeboah
  * Description:
@@ -174,6 +174,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
