@@ -1,4 +1,4 @@
-sign systems, OSS libraries
+sign, OSS libraries
  * ========================================================================== */
 
 export type TimeAgoUnit =
@@ -159,6 +159,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
