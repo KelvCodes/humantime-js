@@ -1,5 +1,4 @@
-calization
- *   • High performance (cached formatters)
+erformance (cached formatters)
  *   • Tree-shakable, framework-agnostic
  *   • Safe defaults, extensible API
  *
@@ -165,6 +164,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
