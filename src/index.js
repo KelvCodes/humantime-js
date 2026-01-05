@@ -1,5 +1,4 @@
-"in 3 days").
- *
+
  * Design goals:
  *   • Deterministic output (no jitter)
  *   • Intl-native localization
@@ -169,6 +168,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
