@@ -1,5 +1,4 @@
 
-  | 'second';
 
 export type RoundingStrategy = 'floor' | 'round' | 'ceil';
 
@@ -183,6 +182,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
