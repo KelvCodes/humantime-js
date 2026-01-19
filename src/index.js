@@ -1,5 +1,4 @@
 
- * TimeAgo — human-readable relative time formatter (v2)
  * ----------------------------------------------------------------------------
  * Author: Kelvin Agyare Yeboah
  *
@@ -204,6 +203,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
