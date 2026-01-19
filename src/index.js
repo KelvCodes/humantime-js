@@ -1,5 +1,4 @@
 
-    rtfCache.set(key, new Intl.RelativeTimeFormat(locale, { numeric: 'auto' }));
   }
   return rtfCache.get(key)!;
 }
@@ -101,6 +100,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
