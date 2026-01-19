@@ -1,6 +1,4 @@
 
-  shortLabels?: Partial<Record<TimeAgoUnit, string>>;
-
   /** Rounding strategy (default: 'floor') */
   rounding?: RoundingStrategy;
 
@@ -165,6 +163,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
