@@ -1,7 +1,4 @@
 
-/* -------------------------------------------------------------------------- */
-/* Defaults                                                                    */
-/* -------------------------------------------------------------------------- */
 
 const DEFAULT_OPTIONS = Object.freeze({
   locale: 'en',
@@ -150,6 +147,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
