@@ -1,5 +1,4 @@
 
- *   • Intl-native localization
  *   • Deterministic & testable (custom "now")
  *   • Short & long modes
  *   • Rounding control
@@ -199,6 +198,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
