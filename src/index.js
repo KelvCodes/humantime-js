@@ -1,6 +1,4 @@
 
-
-const rtfCache = new Map<string, Intl.RelativeTimeFormat>();
 const dtfCache = new Map<string, Intl.DateTimeFormat>();
 
 function getRTF(locale: string) {
@@ -108,6 +106,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
