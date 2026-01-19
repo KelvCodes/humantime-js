@@ -1,6 +1,4 @@
-
-
-const DEFAULT_SHORT_LABELS: Record<TimeAgoUnit, string> = Object.freeze({
+ecord<TimeAgoUnit, string> = Object.freeze({
   year: 'y',
   month: 'mo',
   week: 'w',
@@ -122,6 +120,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
