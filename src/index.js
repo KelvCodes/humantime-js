@@ -1,5 +1,4 @@
 
- * Author: Kelvin Agyare Yeboah
  *
  * Features:
  *   • Intl-native localization
@@ -202,6 +201,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
