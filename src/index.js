@@ -1,6 +1,4 @@
-
-/* Time units                                                                  */
-/* -------------------------------------------------------------------------- */
+----------------------------------------------------------- */
 
 const TIME_UNITS = Object.freeze([
   { unit: 'year', seconds: 31_536_000 },
@@ -138,6 +136,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
