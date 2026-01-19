@@ -1,6 +1,5 @@
 
 
-  /** Intl.DateTimeFormat options for absolute fallback */
   absoluteFormat?: Intl.DateTimeFormatOptions;
 }
 
@@ -155,6 +154,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
