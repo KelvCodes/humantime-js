@@ -1,6 +1,4 @@
 
-
-  short: false,
   rounding: 'floor' as RoundingStrategy,
 });
 
@@ -144,6 +142,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
