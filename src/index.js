@@ -1,5 +1,4 @@
 
-  now?: number;
 
   /** After N seconds, fall back to absolute date */
   absoluteAfter?: number;
@@ -159,6 +158,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
