@@ -1,5 +1,4 @@
 
-  rounding?: RoundingStrategy;
 
   /** Custom "now" timestamp (ms) for SSR/tests */
   now?: number;
@@ -162,6 +161,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
