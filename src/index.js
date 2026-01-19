@@ -1,6 +1,4 @@
 
-
-  /** Largest unit allowed */
   maxUnit?: TimeAgoUnit;
 
   /** Override short unit labels */
@@ -170,6 +168,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
