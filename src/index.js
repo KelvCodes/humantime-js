@@ -1,7 +1,4 @@
 
-
-export type RoundingStrategy = 'floor' | 'round' | 'ceil';
-
 export interface TimeAgoOptions {
   /** BCP-47 locale string (default: 'en') */
   locale?: string;
@@ -182,6 +179,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
