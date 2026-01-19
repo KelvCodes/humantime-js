@@ -1,6 +1,4 @@
 
-  const key = `${locale}:${JSON.stringify(options)}`;
-  if (!dtfCache.has(key)) {
     dtfCache.set(key, new Intl.DateTimeFormat(locale, options));
   }
   return dtfCache.get(key)!;
@@ -95,6 +93,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
