@@ -1,6 +1,4 @@
 
-
-  /** Custom "now" timestamp (ms) for SSR/tests */
   now?: number;
 
   /** After N seconds, fall back to absolute date */
@@ -161,6 +159,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
