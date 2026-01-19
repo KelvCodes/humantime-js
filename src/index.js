@@ -1,5 +1,4 @@
 
- *   • High-performance formatter caching
  *   • Framework-agnostic & tree-shakable
  * ========================================================================== */
 
@@ -194,6 +193,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
