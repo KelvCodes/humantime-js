@@ -1,5 +1,4 @@
 
- *   • Deterministic & testable (custom "now")
  *   • Short & long modes
  *   • Rounding control
  *   • Absolute-date fallback
@@ -198,6 +197,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
