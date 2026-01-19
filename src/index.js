@@ -1,5 +1,4 @@
 
-  { unit: 'second', seconds: 1 },
 ] as const);
 
 const UNIT_INDEX = Object.freeze(
@@ -128,6 +127,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
