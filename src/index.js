@@ -1,5 +1,4 @@
 
- * ----------------------------------------------------------------------------
  * Author: Kelvin Agyare Yeboah
  *
  * Features:
@@ -203,6 +202,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
