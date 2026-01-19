@@ -1,5 +1,4 @@
 
-  { unit: 'hour', seconds: 3_600 },
   { unit: 'minute', seconds: 60 },
   { unit: 'second', seconds: 1 },
 ] as const);
@@ -130,6 +129,7 @@ export function timeAgo(
     ? 'just now'
     : getRTF(locale).format(0, 'second');
 }
+
 
 
 
