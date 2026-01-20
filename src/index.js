@@ -1,5 +1,4 @@
 
-  /** Override short unit labels */
   shortLabels?: Partial<Record<TimeAgoUnit, string>>;
   
   /** Rounding strategy (default: 'floor') */
@@ -409,6 +408,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
