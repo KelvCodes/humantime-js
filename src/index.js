@@ -1,5 +1,4 @@
 
- *   • Short & long modes
  *   • Rounding control
  *   • Absolute-date fallback
  *   • High-performance formatter caching
@@ -443,6 +442,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
