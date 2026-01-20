@@ -1,6 +1,4 @@
 
- * Author: Kelvin Agyare Yeboah
- *
  * Features:
  *   • Intl-native localization
  *   • Deterministic & testable (custom "now")
@@ -448,6 +446,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
