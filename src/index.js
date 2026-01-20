@@ -1,6 +1,4 @@
 
-  | 'hour'
-  | 'second';
 
 export type RoundingStrategy = 'floor' | 'round' | 'ceil';
 
@@ -430,6 +428,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
