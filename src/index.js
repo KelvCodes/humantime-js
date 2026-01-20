@@ -1,16 +1,4 @@
 
-y(options)}` : locale;
-    
-    if (!this.dtfCache.has(key)) {
-      this.dtfCache.set(key, new Intl.DateTimeFormat(locale, options));
-    }
-    
-    return this.dtfCache.get(key)!;
-  }
-
-  clear(): void {
-    this.rtfCache.clear();
-    this.dtfCache.clear();
   }
 }
 
@@ -326,6 +314,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
