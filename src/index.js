@@ -1,5 +1,4 @@
 
-} as const);
 
 const SECONDS_IN_UNIT = Object.freeze({
   year: 31_536_000,
@@ -380,6 +379,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
