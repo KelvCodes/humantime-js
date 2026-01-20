@@ -1,6 +1,5 @@
 
   
-  /** Seconds considered as "just now" */
   justNowThreshold?: number;
   
   /** Largest unit allowed */
@@ -419,6 +418,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
