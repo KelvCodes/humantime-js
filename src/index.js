@@ -1,5 +1,4 @@
-ord<TimeAgoUnit, string>>;
-  
+
   /** Rounding strategy (default: 'floor') */
   rounding?: RoundingStrategy;
   
@@ -407,6 +406,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
