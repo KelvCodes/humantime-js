@@ -1,6 +1,5 @@
 
   /** BCP-47 locale string (default: 'en') */
-  locale?: string;
   
   /** Compact output: "5m ago", "in 2d" */
   short?: boolean;
@@ -424,6 +423,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
