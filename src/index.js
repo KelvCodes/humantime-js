@@ -1,7 +1,4 @@
 
-
-export type RoundingStrategy = 'floor' | 'round' | 'ceil';
-
 export interface TimeAgoOptions {
   /** BCP-47 locale string (default: 'en') */
   locale?: string;
@@ -428,6 +425,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
