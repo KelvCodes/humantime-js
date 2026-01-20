@@ -1,7 +1,5 @@
 
-
-  getDateTimeFormat(locale: string, options?: Intl.DateTimeFormatOptions): Intl.DateTimeFormat {
-    const key = options ? `${locale}:${JSON.stringify(options)}` : locale;
+y(options)}` : locale;
     
     if (!this.dtfCache.has(key)) {
       this.dtfCache.set(key, new Intl.DateTimeFormat(locale, options));
@@ -328,6 +326,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
