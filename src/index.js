@@ -1,21 +1,4 @@
 
-  }
-}
-
-const formatterCache = new FormatterCache();
-
-/* -------------------------------------------------------------------------- */
-/* Helper Functions                                                           */
-/* -------------------------------------------------------------------------- */
-
-const applyRounding = (value: number, strategy: RoundingStrategy): number => {
-  switch (strategy) {
-    case 'ceil':
-      return Math.ceil(value);
-    case 'round':
-      return Math.round(value);
-    case 'floor':
-    default:
       return Math.floor(value);
   }
 };
@@ -314,6 +297,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
