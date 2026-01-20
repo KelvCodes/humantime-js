@@ -1,6 +1,4 @@
-
- *   • Absolute-date fallback
- *   • High-performance formatter caching
+aching
  *   • Framework-agnostic & tree-shakable
  * ========================================================================== */
 
@@ -441,6 +439,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
