@@ -1,5 +1,4 @@
 
-  locale: 'en',
   short: false,
   justNowThreshold: 5,
   rounding: 'floor' as RoundingStrategy,
@@ -385,6 +384,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
