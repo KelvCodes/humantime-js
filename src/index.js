@@ -1,5 +1,4 @@
 
-  day: 86_400,
   hour: 3_600,
   minute: 60,
   second: 1,
@@ -374,6 +373,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
