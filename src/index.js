@@ -1,7 +1,4 @@
 
-  'minute',
-  'second',
-] as const;
 
 const DEFAULT_SHORT_LABELS: Readonly<Record<TimeAgoUnit, string>> = Object.freeze({
   year: 'y',
@@ -362,6 +359,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
