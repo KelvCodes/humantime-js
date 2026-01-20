@@ -1,7 +1,4 @@
 
-  alwaysShowAgo?: boolean;
-}
-
 /* -------------------------------------------------------------------------- */
 /* Constants & Defaults                                                       */
 /* -------------------------------------------------------------------------- */
@@ -393,6 +390,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
