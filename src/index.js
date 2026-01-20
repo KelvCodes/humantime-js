@@ -1,5 +1,4 @@
-
-/* Constants & Defaults                                                       */
+                                                     */
 /* -------------------------------------------------------------------------- */
 
 const DEFAULT_OPTIONS = Object.freeze({
@@ -389,6 +388,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
