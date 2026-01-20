@@ -1,5 +1,4 @@
-aching
- *   • Framework-agnostic & tree-shakable
+
  * ========================================================================== */
 
 export type TimeAgoUnit =
@@ -439,6 +438,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
