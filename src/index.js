@@ -1,7 +1,4 @@
 
-  year: 31_536_000,
-  month: 2_592_000,
-  week: 604_800,
   day: 86_400,
   hour: 3_600,
   minute: 60,
@@ -377,6 +374,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
