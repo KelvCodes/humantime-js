@@ -1,6 +1,4 @@
 
-} as const);
-
 const UNIT_ORDER: readonly TimeAgoUnit[] = [
   'year',
   'month',
@@ -370,6 +368,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
