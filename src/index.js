@@ -1,6 +1,4 @@
 
- * ========================================================================== */
-
 export type TimeAgoUnit =
   | 'year'
   | 'month'
@@ -438,6 +436,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
