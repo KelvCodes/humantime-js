@@ -1,6 +1,4 @@
 
-  rounding: 'floor' as RoundingStrategy,
-  alwaysShowAgo: false,
 } as const);
 
 const SECONDS_IN_UNIT = Object.freeze({
@@ -382,6 +380,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
