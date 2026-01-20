@@ -1,6 +1,4 @@
 
-  absoluteAfter?: number;
-  
   /** Intl.DateTimeFormat options for absolute fallback */
   absoluteFormat?: Intl.DateTimeFormatOptions;
   
@@ -399,6 +397,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
