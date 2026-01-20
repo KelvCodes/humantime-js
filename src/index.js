@@ -1,6 +1,4 @@
 
-  minute: 60,
-  second: 1,
 } as const);
 
 const UNIT_ORDER: readonly TimeAgoUnit[] = [
@@ -372,6 +370,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
