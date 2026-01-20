@@ -1,10 +1,4 @@
 
-        style: style === 'long' ? 'long' : 'short',
-      }));
-    }
-    
-    return this.rtfCache.get(key)!;
-  }
 
   getDateTimeFormat(locale: string, options?: Intl.DateTimeFormatOptions): Intl.DateTimeFormat {
     const key = options ? `${locale}:${JSON.stringify(options)}` : locale;
@@ -334,6 +328,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
