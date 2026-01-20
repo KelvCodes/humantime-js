@@ -1,5 +1,4 @@
 
- *   • Rounding control
  *   • Absolute-date fallback
  *   • High-performance formatter caching
  *   • Framework-agnostic & tree-shakable
@@ -442,6 +441,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
