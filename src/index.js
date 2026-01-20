@@ -1,8 +1,4 @@
 
-  getRelativeTimeFormat(locale: string, style: 'long' | 'short' | 'narrow' = 'long'): Intl.RelativeTimeFormat {
-    const key = `${locale}:${style}`;
-    
-    if (!this.rtfCache.has(key)) {
       this.rtfCache.set(key, new Intl.RelativeTimeFormat(locale, {
         numeric: 'auto',
         style: style === 'long' ? 'long' : 'short',
@@ -340,6 +336,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
