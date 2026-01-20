@@ -1,6 +1,4 @@
 
-
-const DEFAULT_SHORT_LABELS: Readonly<Record<TimeAgoUnit, string>> = Object.freeze({
   year: 'y',
   month: 'mo',
   week: 'w',
@@ -359,6 +357,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
