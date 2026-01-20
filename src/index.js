@@ -1,8 +1,4 @@
 
-});                                   */
-/* -------------------------------------------------------------------------- */
-
-class FormatterCache {
   private rtfCache = new Map<string, Intl.RelativeTimeFormat>();
   private dtfCache = new Map<string, Intl.DateTimeFormat>();
 
@@ -347,6 +343,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
