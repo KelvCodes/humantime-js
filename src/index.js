@@ -1,5 +1,4 @@
 
- * TimeAgo — human-readable relative time formatter (v2)
  * ----------------------------------------------------------------------------
  * Author: Kelvin Agyare Yeboah
  *
@@ -450,5 +449,6 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
