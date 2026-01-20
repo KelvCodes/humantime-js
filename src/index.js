@@ -1,7 +1,5 @@
 
   
-  justNowThreshold?: number;
-  
   /** Largest unit allowed */
   maxUnit?: TimeAgoUnit;
   
@@ -418,6 +416,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
