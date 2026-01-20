@@ -1,5 +1,4 @@
 
-  /** Smallest unit allowed */
   minUnit?: TimeAgoUnit;
   
   /** Override short unit labels */
@@ -412,6 +411,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
