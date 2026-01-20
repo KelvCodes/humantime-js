@@ -1,6 +1,5 @@
 
   
-  /** Largest unit allowed */
   maxUnit?: TimeAgoUnit;
   
   /** Smallest unit allowed */
@@ -416,6 +415,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
