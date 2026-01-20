@@ -1,5 +1,4 @@
-                                                     */
-/* -------------------------------------------------------------------------- */
+
 
 const DEFAULT_OPTIONS = Object.freeze({
   locale: 'en',
@@ -388,6 +387,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
