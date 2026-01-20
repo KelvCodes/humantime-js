@@ -1,6 +1,4 @@
 
-
-const DEFAULT_OPTIONS = Object.freeze({
   locale: 'en',
   short: false,
   justNowThreshold: 5,
@@ -387,6 +385,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
