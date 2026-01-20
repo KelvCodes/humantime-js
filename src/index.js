@@ -1,5 +1,4 @@
 
- *   • Deterministic & testable (custom "now")
  *   • Short & long modes
  *   • Rounding control
  *   • Absolute-date fallback
@@ -444,6 +443,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
