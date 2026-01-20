@@ -1,6 +1,5 @@
 
   
-  /** Compact output: "5m ago", "in 2d
   /** Seconds considered as "just now" */
   justNowThreshold?: number;
   
@@ -420,6 +419,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
