@@ -1,7 +1,4 @@
 
-  private rtfCache = new Map<string, Intl.RelativeTimeFormat>();
-  private dtfCache = new Map<string, Intl.DateTimeFormat>();
-
   getRelativeTimeFormat(locale: string, style: 'long' | 'short' | 'narrow' = 'long'): Intl.RelativeTimeFormat {
     const key = `${locale}:${style}`;
     
@@ -343,6 +340,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
