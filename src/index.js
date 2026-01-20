@@ -1,5 +1,4 @@
 
-  /** Rounding strategy (default: 'floor') */
   rounding?: RoundingStrategy;
   
   /** Custom "now" timestamp (ms) for SSR/tests */
@@ -406,6 +405,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
