@@ -1,8 +1,5 @@
 
   
-  /** Custom "now" timestamp (ms) for SSR/tests */
-  now?: number;
-  
   /** After N seconds, fall back to absolute date */
   absoluteAfter?: number;
   
@@ -404,6 +401,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
