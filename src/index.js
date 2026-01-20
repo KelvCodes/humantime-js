@@ -1,6 +1,4 @@
 
-      this.rtfCache.set(key, new Intl.RelativeTimeFormat(locale, {
-        numeric: 'auto',
         style: style === 'long' ? 'long' : 'short',
       }));
     }
@@ -336,6 +334,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
