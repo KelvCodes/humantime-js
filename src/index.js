@@ -1,6 +1,4 @@
 
-  minUnit?: TimeAgoUnit;
-  
   /** Override short unit labels */
   shortLabels?: Partial<Record<TimeAgoUnit, string>>;
   
@@ -411,6 +409,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
