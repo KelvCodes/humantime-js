@@ -1,5 +1,4 @@
 
-export type TimeAgoUnit =
   | 'year'
   | 'month'
   | 'week'
@@ -436,6 +435,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
