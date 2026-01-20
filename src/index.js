@@ -1,6 +1,4 @@
 
-  
-  /** Show "ago" suffix even in long mode for past dates (default: false) */
   alwaysShowAgo?: boolean;
 }
 
@@ -395,6 +393,7 @@ export const _internals = {
   TimeFormatter,
   OptionsNormalizer,
 } as const;
+
 
 
 
