@@ -1,6 +1,7 @@
-now() - 24 * 60 * 60 * 1000); // 1 day ago
+- 24 * 60 * 60 * 1000); // 1 day ago
   expect(timeAgo(d)).toBe('yesterday');
 });
+
 
 
 
