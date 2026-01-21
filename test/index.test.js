@@ -1,6 +1,4 @@
 
-  clearFormatterCache();
-});
 
 afterEach(() => {
   Date.now = originalDateNow;
@@ -450,6 +448,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
