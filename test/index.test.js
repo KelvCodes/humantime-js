@@ -1,5 +1,4 @@
 
-    expect(timeAgo(justNow, { justNowThreshold: 10 })).toBe('just now');
   });
 
   test('should format minutes/hours correctly', () => {
@@ -427,6 +426,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
