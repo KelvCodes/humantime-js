@@ -1,20 +1,3 @@
-);
-     60 * 60 * 1000);
-    expect(timeAgo(twoDaysAgo, { short: true })).toBe('2d ago');
-    
-    const in3Hours = new Date(mockNow + 3 * 60 * 60 * 1000);
-    expect(timeAgo(in3Hours, { short: true })).toBe('in 3h');
-  });
-
-  test('should use custom short labels', () => {
-    const threeDaysAgo = new Date(mockNow - 3 * 24 * 60 * 60 * 1000);
-    const options = {
-      short: true,
-      shortLabels: { day: 'jours', week: 'sem' }
-    };
-    
-    expect(timeAgo(threeDaysAgo, options)).toBe('3jours ago');
-  });
 
   test('should respect maxUnit and minUnit', () => {
     const twoDaysAgo = new Date(mockNow - 2 * 24 * 60 * 60 * 1000);
@@ -387,6 +370,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
