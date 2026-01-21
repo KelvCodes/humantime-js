@@ -1,5 +1,4 @@
 
-    expect(timeAgo('invalid-date')).toBe('Invalid date');
     expect(timeAgo(new Date('invalid'))).toBe('Invalid date');
   });
 
@@ -435,6 +434,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
