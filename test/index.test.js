@@ -1,4 +1,4 @@
-te.now for deterministic tests
+inistic tests
 const mockNow = 1705708800000; // Jan 20, 2024 00:00:00 UTC
 const originalDateNow = Date.now;
 
@@ -455,6 +455,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
