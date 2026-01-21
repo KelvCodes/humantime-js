@@ -1,8 +1,4 @@
 
-    const yesterday = new Date(mockNow - 24 * 60 * 60 * 1000);
-    expect(timeAgo(yesterday, { numeric: 'always' })).toBe('1 day ago');
-  });
-
   test('should handle future dates', () => {
     const in5Minutes = new Date(mockNow + 5 * 60 * 1000);
     expect(timeAgo(in5Minutes)).toBe('in 5 minutes');
@@ -402,6 +398,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
