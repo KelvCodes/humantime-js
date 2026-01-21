@@ -1,6 +1,6 @@
-
-  expect(timeAgo(d)).toBe('yesterday');
+timeAgo(d)).toBe('yesterday');
 });
+
 
 
 
