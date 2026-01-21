@@ -1,5 +1,4 @@
 
-  Date.now = jest.fn(() => mockNow);
   clearFormatterCache();
 });
 
@@ -451,6 +450,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
