@@ -1,6 +1,4 @@
 
-
-describe('timeAgo - Basic Functionality', () => {
   test('should handle null/undefined input', () => {
     expect(timeAgo(null as any)).toBe('');
     expect(timeAgo(undefined as any)).toBe('');
@@ -443,6 +441,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
