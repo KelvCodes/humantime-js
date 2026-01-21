@@ -1,7 +1,4 @@
 
-  });
-
-  test('should format minutes/hours correctly', () => {
     const fiveMinutesAgo = new Date(mockNow - 5 * 60 * 1000);
     expect(timeAgo(fiveMinutesAgo)).toBe('5 minutes ago');
     
@@ -426,6 +423,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
