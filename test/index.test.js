@@ -1,6 +1,4 @@
 
-    expect(timeAgo(today)).toBe('today');
-  });
 
   test('should override special day labels with numeric: always', () => {
     const yesterday = new Date(mockNow - 24 * 60 * 60 * 1000);
@@ -406,6 +404,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
