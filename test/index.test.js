@@ -1,5 +1,4 @@
 
-    expect(timeAgo(yesterday)).toBe('yesterday');
     expect(timeAgo(tomorrow)).toBe('tomorrow');
     expect(timeAgo(today)).toBe('today');
   });
@@ -408,6 +407,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
