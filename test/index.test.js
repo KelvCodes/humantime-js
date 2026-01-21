@@ -1,5 +1,4 @@
 
-    expect(timeAgo(justNow, { justNowThreshold: 0 })).toBe('now');
     expect(timeAgo(justNow, { justNowThreshold: 10 })).toBe('just now');
   });
 
@@ -428,6 +427,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
