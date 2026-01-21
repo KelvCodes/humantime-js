@@ -1,14 +1,5 @@
 );
-    expect(timeAgo(in5Minutes)).toBe('in 5 minutes');
-    
-    const in2Days = new Date(mockNow + 2 * 24 * 60 * 60 * 1000);
-    expect(timeAgo(in2Days)).toBe('in 2 days');
-  });
-});
-
-describe('timeAgo - Options', () => {
-  test('should respect short mode', () => {
-    const twoDaysAgo = new Date(mockNow - 2 * 24 * 60 * 60 * 1000);
+     60 * 60 * 1000);
     expect(timeAgo(twoDaysAgo, { short: true })).toBe('2d ago');
     
     const in3Hours = new Date(mockNow + 3 * 60 * 60 * 1000);
@@ -396,6 +387,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
