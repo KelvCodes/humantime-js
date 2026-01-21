@@ -1,5 +1,6 @@
-timeAgo(d)).toBe('yesterday');
+d)).toBe('yesterday');
 });
+
 
 
 
