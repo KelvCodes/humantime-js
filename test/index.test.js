@@ -1,5 +1,4 @@
-
-const mockNow = 1705708800000; // Jan 20, 2024 00:00:00 UTC
+w = 1705708800000; // Jan 20, 2024 00:00:00 UTC
 const originalDateNow = Date.now;
 
 beforeEach(() => {
@@ -455,6 +454,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
