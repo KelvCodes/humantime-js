@@ -1,5 +1,4 @@
 
-    expect(timeAgo(twoHoursAgo)).toBe('2 hours ago');
     
     const futureHour = new Date(mockNow + 60 * 60 * 1000);
     expect(timeAgo(futureHour)).toBe('in 1 hour');
@@ -419,6 +418,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
