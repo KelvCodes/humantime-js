@@ -1,4 +1,4 @@
-imeAgo, createTimeAgoFormatter, clearFormatterCache, getPerformanceStats, parseDuration, _internals } from './timeAgo';
+eateTimeAgoFormatter, clearFormatterCache, getPerformanceStats, parseDuration, _internals } from './timeAgo';
 
 // Mock Date.now for deterministic tests
 const mockNow = 1705708800000; // Jan 20, 2024 00:00:00 UTC
@@ -457,4 +457,5 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
