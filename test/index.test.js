@@ -1,7 +1,4 @@
 
-  });
-
-  test('should format days with special labels (English)', () => {
     const yesterday = new Date(mockNow - 24 * 60 * 60 * 1000);
     const tomorrow = new Date(mockNow + 24 * 60 * 60 * 1000);
     const today = new Date(mockNow);
@@ -415,6 +412,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
