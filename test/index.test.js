@@ -1,6 +1,7 @@
-ay ago
+
   expect(timeAgo(d)).toBe('yesterday');
 });
+
 
 
 
