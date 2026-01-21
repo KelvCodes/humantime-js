@@ -1,6 +1,4 @@
 
-
-  test('should format just now (within threshold)', () => {
     const justNow = new Date(mockNow - 4000); // 4 seconds ago
     expect(timeAgo(justNow)).toBe('just now');
     expect(timeAgo(justNow, { justNowThreshold: 0 })).toBe('now');
@@ -432,6 +430,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
