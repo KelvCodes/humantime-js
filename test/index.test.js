@@ -1,5 +1,4 @@
 
-    const fiveMinutesAgo = new Date(mockNow - 5 * 60 * 1000);
     expect(timeAgo(fiveMinutesAgo)).toBe('5 minutes ago');
     
     const twoHoursAgo = new Date(mockNow - 2 * 60 * 60 * 1000);
@@ -423,6 +422,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
