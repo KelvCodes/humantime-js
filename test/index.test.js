@@ -1,5 +1,4 @@
-
-const originalDateNow = Date.now;
+ateNow = Date.now;
 
 beforeEach(() => {
   Date.now = jest.fn(() => mockNow);
@@ -454,6 +453,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
