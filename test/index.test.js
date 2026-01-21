@@ -1,5 +1,4 @@
 
-    const tomorrow = new Date(mockNow + 24 * 60 * 60 * 1000);
     const today = new Date(mockNow);
     
     expect(timeAgo(yesterday)).toBe('yesterday');
@@ -411,6 +410,7 @@ function measureTime(fn: () => void): number {
   fn();
   return performance.now() - start;
 }
+
 
 
 
